@@ -1,0 +1,35 @@
+.noPreview {
+  background-image: url('./assets/no_preview.png');
+  width: 24px;
+  height: 30px;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 8px;
+}
+.left-addon svg {
+  margin-right: -26px;
+  z-index: 1;
+  margin-top: 11px;
+}
+.left-addon input {
+  padding-left: 30px;
+}
+.addBorder{
+  border: 1px solid rgba(0,0,0,.15);
+}
+.servers-tr-class td {
+  vertical-align: middle;
+}
+.h-centered {
+  text-align: center;
+}
+.flex-container {
+  align-items: flex-end
+}
+.flex-wide {
+  flex: 1 1 auto;
+}
+.flex-short {
+  flex: 0 1 auto;
+}

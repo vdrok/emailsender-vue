@@ -1,0 +1,56 @@
+{
+  "name": "emailsender.web",
+  "description": "email sender",
+  "version": "1.0.0",
+  "author": "Pavel Bragin",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot --watch",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.12",
+    "@fortawesome/free-solid-svg-icons": "^5.6.3",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
+    "bootstrap": "^4.2.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "i": "^0.3.6",
+    "npm": "^6.7.0",
+    "popper.js": "^1.12.9",
+    "vue": "^2.5.3",
+    "vue-codemirror": "^4.0.6",
+    "vue-search-select": "^2.8.2",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "ajv": "^6.7.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^1.1.5",
+    "jquery": "^1.9.1",
+    "node-sass": "^4.6.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.0",
+    "vue-loader": "^13.5.0",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.5.3",
+    "vuex": "^3.1.0",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
